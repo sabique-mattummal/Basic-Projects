@@ -28,7 +28,7 @@ print("Your mission is to find the treasure.")
 road=input("Which road will you take? left or right : " )
 r=road.lower()
 if r == "left":
-  water=input("Would you swim across or wait for the boat? Answer either swim or wait : ")
+  water=input("Would you swim or wait for the boat? Answer either swim or wait : ")
   w=water.lower()
   if w == "wait":
     door=input("Which door would you open?  Red Blue Yellow ")
@@ -42,6 +42,6 @@ if r == "left":
     else:
       print("Game Over !!")
   else:
-    print("You swimmed to the mouth of a hunger shark, Game Over!")  
+    print("You swim in to the mouth of a hunger shark, Game Over!")  
 else:
-  print("Oh dear ! You fall in to hell, Game Over")
+  print(" ! You fall in to hell, Game Over")
