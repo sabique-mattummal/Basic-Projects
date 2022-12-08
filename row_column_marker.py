@@ -14,7 +14,7 @@ print(f"{row1}\n{row2}\n{row3}")
 
 print("The positions are\n[11,21,31]\n[12,22,32]\n[13,23,33]")
 
-position = input("Where do you want to put the marker "X" as per the above arrangemnt ? ")
+position = input("Where do you want to put the marker 'X' as per the above arrangemnt ? ")
 
 
 #Position Marking
